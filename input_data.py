@@ -1,3 +1,4 @@
+//mybranch2
 """Functions for downloading and reading MNIST data."""
 from __future__ import print_function
 import gzip
@@ -142,5 +143,8 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False):
   data_sets.validation = DataSet(validation_images, validation_labels)
   data_sets.test = DataSet(test_images, test_labels)
   return data_sets
+<<<<<<< HEAD
 //mybranch
 //mybranch1
+=======
+>>>>>>> 3f0d19d7fdcd1e9ac56c70a4a94f8d5e8015f38e
