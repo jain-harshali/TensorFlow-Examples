@@ -142,3 +142,4 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False):
   data_sets.validation = DataSet(validation_images, validation_labels)
   data_sets.test = DataSet(test_images, test_labels)
   return data_sets
+//mybranch1
